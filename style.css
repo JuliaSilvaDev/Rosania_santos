@@ -1,7 +1,4 @@
-@font-face{
-    font-family: monte;
-    src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
-  }
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 * {
     margin: 0;
@@ -19,7 +16,7 @@
     z-index: -1;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 
 html, body{
   height: 100%;
@@ -42,7 +39,7 @@ body{
 
 svg {
     display: block;
-    font-family: 10.5em monte;
+    font: 10.5em 'Montserrat';
     width: 960px;
     height: 300px;
     margin: 0 auto;
