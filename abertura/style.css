@@ -1,3 +1,8 @@
+@font-face{
+    font-family: monte;
+    src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -84,4 +89,9 @@ svg {
 
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
+}
+
+#Mont {
+    position: relative;
+    top: 100px;
 }
