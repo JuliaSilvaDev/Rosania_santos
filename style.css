@@ -42,7 +42,7 @@ body{
 
 svg {
     display: block;
-    font: 10.5em 'Montserrat';
+    font-family: 10.5em monte;
     width: 960px;
     height: 300px;
     margin: 0 auto;
