@@ -1,7 +1,4 @@
-@font-face {
-    font-family: monte;
-    src: url(/Fonts/Montserrat-VariableFont_wght.ttf);
-  }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 * {
     margin: 0;
@@ -25,7 +22,7 @@ header {
 header h1 {
     width: 20%;
     position: relative;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     color: #FF3E00;
     top: 20px;
