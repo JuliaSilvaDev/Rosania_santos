@@ -381,8 +381,9 @@ section {
     position: relative;
     width: 35%;
     height: 456.2px;
-    left: 805px;
+    left: 865px;
     top: 12px;
+    cursor: pointer;
     background: url(./assets/Gabriela.png);
     background-size: cover;
 }
@@ -675,6 +676,79 @@ section {
 }
 
 #ele55:hover {
+    color:#f03e03;
+    cursor: pointer;
+}
+
+
+.container3 {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    background: linear-gradient(89.88deg, #BD0034 0.15%, #580025 99.94%);
+}
+
+#amara {
+    position: relative;
+    width: 35%;
+    height: 456.2px;
+    left: 15px;
+    top: 12px;
+    cursor: pointer;
+    background: url(./assets/Amara.png);
+    background-size: cover;
+}
+
+.ama {
+    position: relative;
+    width: 40%;
+    box-sizing: border-box;
+    height: 400px;
+    top: -200px;
+    left: 90px;
+    background-color: #FFf;
+}
+
+#h111 {
+    position: relative;
+    font-size: 60px;
+    width: 40%;
+    height: 90px;
+    display: flex;
+    clear: left;
+    top: -325px;
+    left: 750px;
+    color: #FC4308;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+}
+
+#ppp {
+    position: relative;
+    width: 20%;
+    height: 120px;
+    color: #ffffff;
+    top: -330px;
+    left: 810px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal; 
+    font-size: 30px;
+}
+
+#ama5 {
+    position: relative;
+    width: 9%;
+    height: 40px;
+    left: 880px;
+    top: -390px;
+    color:#fc4308;
+    background-color: #ffffff00;
+    border: 2px solid #fc4308;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#ama5:hover {
     color:#f03e03;
     cursor: pointer;
 }
