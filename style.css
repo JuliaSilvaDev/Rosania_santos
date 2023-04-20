@@ -152,7 +152,7 @@ section {
     font-size: 55px;
     top: 80px;
 }
-
+/*esse*/
 .ele {
     position: relative;
     width: 24%;
@@ -382,7 +382,7 @@ section {
     width: 35%;
     height: 456.2px;
     left: 805px;
-    top: 10px;
+    top: 12px;
     background: url(./assets/Gabriela.png);
     background-size: cover;
 }
@@ -440,6 +440,247 @@ section {
     color:#f03e03;
     cursor: pointer;
 }
+
+.charme {
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(180deg, #580025 0%, #270010 100%);
+}
+
+.charm {
+    position:relative;
+    top: 70px;
+    width: 20%;
+    height: 30px;
+    color: #FC4308;
+    left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size: 40px;
+}
+
+.ela {
+    position: relative;
+    width: 24%;
+    height: 390px;
+    top: 150px;
+    left: 10px;
+    display: flex;
+    float: left;
+    border: 2px solid #fc4308;
+    border-radius: 3px;
+    cursor: pointer;
+    background: url(./assets/charme1.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+.ela1 {
+    position: relative;
+    width: 24%;
+    height: 390px;
+    top: 150px;
+    left: 20px;
+    display: flex;
+    float: left;
+    border: 2px solid #fc4308;
+    border-radius: 3px;
+    cursor: pointer;
+    background: url(./assets/charme2.jpg);
+    background-size: cover;
+    z-index: 2;
+}
+
+.ela3 {
+    position: relative;
+    width: 24%;
+    height: 390px;
+    top: 150px;
+    left: 30px;
+    display: flex;
+    float: left;
+    border: 2px solid #fc4308;
+    border-radius: 3px;
+    cursor: pointer;
+    background: url(./assets/charme3.jpg);
+    background-size: cover;
+    z-index: 3;
+}
+
+.ela4 {
+    position: relative;
+    width: 24%;
+    height: 390px;
+    top: 150px;
+    left: 40px;
+    display: flex;
+    float: left;
+    border: 2px solid #fc4308;
+    border-radius: 3px;
+    cursor: pointer;
+    background: url(./assets/charme4.jpg);
+    background-size: cover;
+    z-index: 3;
+}
+
+.valores1 {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    top: 545px;
+}
+
+
+#elee1 {
+    position: relative;
+    width: 20%;
+    height: 70px;
+    left: 20px;
+}
+
+#elee1 h4 {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-385px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+#elee1 p {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-365px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+#ele11 {
+    position: relative;
+    width: 20%;
+    height: 70px;
+    left: 360px;
+    top: -78px;
+
+}
+
+#ele11 h4 {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-305px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+#ele11 p {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-285px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+#ele33 {
+    position: relative;
+    width: 20%;
+    height: 70px;
+    left: 695px;
+    top: -156px;
+}
+
+#ele33 h4 {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-229px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+#ele33 p {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-210px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+#ele44 {
+    position: relative;
+    width: 20%;
+    height: 70px;
+    left: 1030px;
+    top: -234px;
+}
+
+#ele44 h4 {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-149px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+#ele44 p {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#ele55 {
+    position: relative;
+    width: 8%;
+    height: 25px;
+    left: 1150px;
+    top: -270px;
+    color:#fc4308;
+    background-color: #ffffff00;
+    border: 2px solid #fc4308;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#ele55:hover {
+    color:#f03e03;
+    cursor: pointer;
+}
+
+
+
 
 
 
