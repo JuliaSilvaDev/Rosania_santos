@@ -20,11 +20,11 @@ header {
 }
 
 header h1 {
-    width: 20%;
+    width: 30%;
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    color: #FF3E00;
+    color: #FFf;
     top: 20px;
     left: 10px;
     font-size: 40px;
@@ -32,12 +32,13 @@ header h1 {
     float: left;
 }
 
+
 .nav {
     width: 50%;
     height: 40px;
     position: relative;
     display: flex;
-    left: 100px;
+    left: 180px;
     top: 25px;
     margin: auto;
     justify-content: space-around;
@@ -46,16 +47,79 @@ header h1 {
 }
 .nav li{
     list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size: 20px;
     display: inline-block;
     margin: 10px;
-    margin-left: 70px;
+    margin-left: 20px;
 }
 
 .nav a {
     text-decoration: none;
-    color:#FF3E00;
+    color:#FFf;
 }
 
 .linha {
     border: 1px solid #FC4308;
 }
+
+.fast {
+    position: relative;
+    width: 6%;
+    display: flex;
+    float: left;
+    height: 30px;
+    top: 30px;
+    left: 150px;
+    justify-content: space-between;
+}
+
+.fast i {
+    color: #fff;
+    cursor: pointer;
+}
+
+.fast i:hover {
+    color: #e93a00;
+}
+
+section {
+    width: 100%;
+    height: 832px;
+    background: linear-gradient(89.8deg, #BD0034 0.4%, #BD0034 20.96%, #A20030 34.98%, #7F002B 50.03%, #6E0028 66.64%, #580025 89.99%);
+}
+
+.container {
+    position: relative;
+    background-size: cover;
+    width: 39.1%;
+    background: url(./assets/Rosania.png);
+    background-size: cover;
+    height: 90%;
+    display: flex;
+    float: left;
+    left: 860px;
+    top: -350px;
+}
+
+.santos {
+    position: relative;
+    width: 45%;
+    background-color: #00fe00 ;
+    box-sizing: border-box;
+    height: 400px;
+    top: 200px;
+    left: 90px;
+}
+
+#h1 {
+    position: relative;
+    background-color: #580025;
+    font-size: 45px;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    clear: left;
+}
+
