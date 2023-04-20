@@ -163,6 +163,7 @@ section {
     float: left;
     border: 2px solid #fc4308;
     border-radius: 3px;
+    cursor: pointer;
     background: url(./assets/Elegante1.jpg);
     background-size: cover;
     z-index: 1;
@@ -178,6 +179,7 @@ section {
     float: left;
     border: 2px solid #fc4308;
     border-radius: 3px;
+    cursor: pointer;
    background: url(./assets/Elegante3.jpg);
    background-size: cover;
    z-index: 2;
@@ -195,6 +197,7 @@ section {
     background: url(./assets/Elegante4.jpg);
     background-size: cover;
     z-index: 3;
+    cursor: pointer;
     border: 2px solid #fc4308;
 }
 .ele4 {
@@ -207,6 +210,7 @@ section {
     float: left;
     border: 2px solid #fc4308;
     border-radius: 3px;
+    cursor: pointer;
     background: url(./assets/Elegante2.jpg);
     background-size: cover;
     z-index: 4;
