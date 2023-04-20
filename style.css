@@ -9,7 +9,7 @@
 main {
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 2000px;
     background-color: aqua;
 }
 
@@ -133,4 +133,157 @@ section {
     font-style:normal; 
     font-size: 20px;
 }
+
+.elegancia {
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(180deg, #580025 0%, #270010 100%);
+}
+
+.eleg h1{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    left: -460px;
+    color: #FC4308;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size: 55px;
+    top: 80px;
+}
+
+.ele {
+    position: relative;
+    width: 24%;
+    height: 390px;
+    top: 150px;
+    left: -520px;
+    display: flex;
+    float: left;
+    border: 2px solid #fc4308;
+    border-radius: 3px;
+    background: url(./assets/Elegante1.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+.ele1 {
+    position: relative;
+    width: 24%;
+    height: 390px;
+    top: 150px;
+    left: -510px;
+    display: flex;
+    float: left;
+    border: 2px solid #fc4308;
+    border-radius: 3px;
+   background: url(./assets/Elegante3.jpg);
+   background-size: cover;
+   z-index: 2;
+}
+
+.ele3 {
+    position: relative;
+    width: 24%;
+    height: 390px;
+    top: -240px;
+    left: 675px;
+    display: flex;
+    float: left;
+    border-radius: 3px;
+    background: url(./assets/Elegante4.jpg);
+    background-size: cover;
+    z-index: 3;
+    border: 2px solid #fc4308;
+}
+.ele4 {
+    position: relative;
+    width: 24%;
+    height: 390px;
+    top: -240px;
+    left: 685px;
+    display: flex;
+    float: left;
+    border: 2px solid #fc4308;
+    border-radius: 3px;
+    background: url(./assets/Elegante2.jpg);
+    background-size: cover;
+    z-index: 4;
+}
+
+.valores {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    top: 545px;
+  background-color: blueviolet;
+}
+
+#ele {
+    position: relative;
+    width: 20%;
+    height: 70px;
+    left: 20px;
+    background-color: #fff;
+}
+
+#ele h4 {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-770px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+#ele p {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-750px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#ele1 {
+    position: relative;
+    width: 20%;
+    height: 70px;
+    left: 355px;
+    top: -78px;
+    background-color: #fff;
+}
+#ele1 h4 {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top: -695px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    background-color: #A20030;
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+#ele1 p {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-675px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
 
