@@ -4,9 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Usuário</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../Usuario/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>Usuário</title>
 </head>
 <body>
+    <main>       
+            <div class="container">
+                <div class="signin-signup">
+                    <form action="" class="sign-in-form">
+                        <h2 class="title">Entrar</h2>
+                        <div class="input-field">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="Usuário">
+                        </div>
+                        <div class="input-field">
+                            <i class="fas fa-lock"></i>
+                            <input type="password"  required placeholder="Senha">
+                        </div>
+                        <input type="submit" id="submit"value="Entrar" class="btn">
+                        <div class="support">
+                            <div class="remember">
+                                <span class="yes"><input type="checkbox" name="opçao1" value="sim" ></span>
+                                <span class="span"> Lembre-se de mim.</a></span>
+                            </div>
+                        </div>
+                        <div class="login_footer">
+                            
+                        </div>
+                        <div>
+                            <ul class="wrapper">
+                                <li class="icon instagram">
+                                    <span class="tooltip">Instagram</span>
+                                    <span><i class="fab fa-instagram"></i></span>
+                                  </li>
+                                  <li class="icon whatsapp">
+                                    <span class="tooltip">WatsApp</span>
+                                    <span><i class="fab fa-whatsapp"></i></span>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                      </form>
     
+                     <form action="" class="sign-up-form">
+                        <h2 class="title">Registrar</h2>
+                        <div class="input-field">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="Usuário">
+                        </div>
+                        <div class="input-field">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" required placeholder="E-mail">
+                        </div>
+                        <div class="input-field">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" required placeholder="Senha">
+                        </div>
+                        <input type="submit" id="submit" value="Registrar" class="btn">
+                        <div class="support">
+                            <div class="remember">
+                                <span class="yes"><input type="checkbox" name="opçao1" value="sim" id="yes"></span>
+                                <span class="span">Li e concordo com os termos e serviços.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <ul class="wrapper">
+                                <li class="icon instagram">
+                                    <span class="tooltip">Instagram</span>
+                                    <span><i class="fab fa-instagram"></i></span>
+                                  </li>
+                                  <li class="icon whatsapp">
+                                    <span class="tooltip">WatsApp</span>
+                                    <span><i class="fab fa-whatsapp"></i></span>
+                                </li>
+                            </ul>
+                            
+                        </div>
+
+                    </form>
+                </div>    
+            </div>
+            <div class="panels-container">
+                <div class="panel left-panel">
+                    <div class="content">
+                        <button class="btn" id="sign-in-btn">Entrar</button>
+                    </div>
+                </div>
+                <div class="panel right-panel">
+                    <div class="content">
+                        <button class="btn" id="sign-up-btn">Registrar</button>
+                    </div>
+
+                   
+                </div>
+            </div>
+    </main>
+
+    <script src="../Usuario/usuario.js"></script>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 </body>
 </html>

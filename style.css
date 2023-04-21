@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+.html {
+    scroll-behavior: smooth;
+  }
+  
 main {
     position: relative;
     width: 100%;
@@ -385,6 +389,7 @@ section {
     color:#f03e03;
     cursor: pointer;
 }
+
 
 .container2 {
     position: relative;
