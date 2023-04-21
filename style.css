@@ -66,6 +66,11 @@ header h1 {
     color:#FFf;
 }
 
+.nav a:hover {
+    color:#FC4308;
+    transition: 1.2s;
+}
+
 .linha {
     border: 1px solid #FC4308;
 }
@@ -88,6 +93,7 @@ header h1 {
 
 .fast i:hover {
     color: #e93a00;
+    transition: 1.2s;
 }
 
 section {
