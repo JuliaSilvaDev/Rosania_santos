@@ -1303,7 +1303,7 @@ section {
     position: relative;
     width: 35%;
     height: 456.2px;
-    left: 855px;
+    left: 20px;
     top: 12px;
     cursor: pointer;
     background: url(./assets/maria.png);
@@ -1319,7 +1319,7 @@ section {
     display: flex;
     clear: left;
     top: -325px;
-    left: 140px;
+    left: 740px;
     color: #FC4308;
     font-family: 'Montserrat', sans-serif;
     font-style:normal;
@@ -1327,11 +1327,11 @@ section {
 
 #p3 {
     position: relative;
-    width: 40%;
+    width: 20%;
     height: 120px;
     color: #ffffff;
     top: -330px;
-    left: 290px;
+    left: 890px;
     font-family: 'Montserrat', sans-serif;
     font-style:normal; 
     font-size: 30px;
@@ -1341,7 +1341,7 @@ section {
     position: relative;
     width: 9%;
     height: 40px;
-    left: 330px;
+    left: 920px;
     top: -390px;
     color:#fc4308;
     background-color: #ffffff00;
@@ -1396,7 +1396,7 @@ section {
 
 #Xu ul {
     position:absolute;
-    top:6370px;
+    top:6360px;
     left:74%;
     transform: translate(-50%, -50%);
     margin:0;
