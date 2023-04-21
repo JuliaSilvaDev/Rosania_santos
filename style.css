@@ -1009,15 +1009,6 @@ section {
     background-size: cover;
 }
 
-.lari {
-    position: relative;
-    width: 40%;
-    box-sizing: border-box;
-    height: 400px;
-    top: -200px;
-    left: 90px;
-    background-color: #FFf;
-}
 
 #h12 {
     position: relative;
@@ -1063,7 +1054,397 @@ section {
     cursor: pointer;
 }
 
+.parte_baixo {
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(180deg, #580025 0%, #270010 100%);
+}
+
+.baixo {
+    position:relative;
+    top: 70px;
+    width: 45%;
+    height: 30px;
+    color: #FC4308;
+    left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size: 40px;
+}
+
+.elo {
+    position: relative;
+    width: 24%;
+    height: 390px;
+    top: 150px;
+    left: 10px;
+    display: flex;
+    float: left;
+    border: 2px solid #fc4308;
+    border-radius: 3px;
+    cursor: pointer;
+    background: url(./assets/cima1.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+.elo1 {
+    position: relative;
+    width: 24%;
+    height: 390px;
+    top: 150px;
+    left: 20px;
+    display: flex;
+    float: left;
+    border: 2px solid #fc4308;
+    border-radius: 3px;
+    cursor: pointer;
+    background: url(./assets/cima2.jpg);
+    background-size: cover;
+    z-index: 2;
+}
+.elo3 {
+    position: relative;
+    width: 24%;
+    height: 390px;
+    top: 150px;
+    left: 30px;
+    display: flex;
+    float: left;
+    border: 2px solid #fc4308;
+    border-radius: 3px;
+    cursor: pointer;
+    background: url(./assets/cima3.jpg);
+    background-size: cover;
+    z-index: 3;
+}
+
+.elo4 {
+    position: relative;
+    width: 24%;
+    height: 390px;
+    top: 150px;
+    left: 40px;
+    display: flex;
+    float: left;
+    border: 2px solid #fc4308;
+    border-radius: 3px;
+    cursor: pointer;
+    background: url(./assets/cima4.jpg);
+    background-size: cover;
+    z-index: 3;
+}
+
+.valores3 {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    top: 545px;
+}
 
 
+#elo1 {
+    position: relative;
+    width: 20%;
+    height: 70px;
+    left: 20px;
+}
+
+#elo1 h4 {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-385px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+#elo1 p {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-365px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size: 18px;
+    margin-top: 10px;
+}
 
 
+#elo11 {
+    position: relative;
+    width: 20%;
+    height: 70px;
+    left: 360px;
+    top: -78px;
+
+}
+
+#elo11 h4 {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-305px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+#elo11 p {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-285px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+#elo33 {
+    position: relative;
+    width: 20%;
+    height: 70px;
+    left: 695px;
+    top: -156px;
+}
+
+#elo33 h4 {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-229px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+#elo33 p {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-207px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+#elo44 {
+    position: relative;
+    width: 20%;
+    height: 70px;
+    left: 1030px;
+    top: -234px;
+}
+
+#elo44 h4 {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-149px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+#elo44 p {
+    position: relative;
+    width:100%;
+    height: 0px;
+    color:#fc4308;
+    top:-129px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#elo55 {
+    position: relative;
+    width: 8%;
+    height: 25px;
+    left: 1150px;
+    top: -270px;
+    color:#fc4308;
+    background-color: #ffffff00;
+    border: 2px solid #fc4308;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#elo55:hover {
+    color:#f03e03;
+    cursor: pointer;
+}
+
+
+.container5 {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    background: linear-gradient(89.88deg, #BD0034 0.15%, #580025 99.94%);
+}
+
+#maria {
+    position: relative;
+    width: 35%;
+    height: 456.2px;
+    left: 855px;
+    top: 12px;
+    cursor: pointer;
+    background: url(./assets/maria.png);
+    background-size: cover;
+}
+
+
+#h13 {
+    position: relative;
+    font-size: 60px;
+    width: 40%;
+    height: 90px;
+    display: flex;
+    clear: left;
+    top: -325px;
+    left: 140px;
+    color: #FC4308;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+}
+
+#p3 {
+    position: relative;
+    width: 40%;
+    height: 120px;
+    color: #ffffff;
+    top: -330px;
+    left: 290px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal; 
+    font-size: 30px;
+}
+
+#mari5 {
+    position: relative;
+    width: 9%;
+    height: 40px;
+    left: 330px;
+    top: -390px;
+    color:#fc4308;
+    background-color: #ffffff00;
+    border: 2px solid #fc4308;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#mari5:hover {
+    color:#f03e03;
+    cursor: pointer;
+}
+
+.atendimento {
+    width: 100%;
+    height: 710px;
+    background: linear-gradient(180deg, #580025 0%, #270010 100%);
+}
+
+.atender {
+    position:relative;
+    top: 100px;
+    width: 40%;
+    height: 30px;
+    color: #FC4308;
+    left: 800px;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-size: 40px;
+}
+
+#Imagem0 {
+    position: relative;
+    background: url(./assets/smartphone.png);
+    background-size: cover;
+    width: 35%;
+    top: 0px;
+    height: 700px;
+}
+
+#p4 {
+    position: relative;
+    color:#FFf;
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal; 
+    font-size: 25px;
+    text-align: center;
+    left: -70px;
+    top: 20px;
+}
+
+
+#Xu ul {
+    position:absolute;
+    top:6370px;
+    left:74%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  #Xu ul li a {
+    position: relative;
+    width:60px;
+    height:60px;
+    display:block;
+    text-align:center;
+    margin:0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .5s;
+  }
+  
+  ul li a:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-decoration:none;
+  }
+  
+  ul li a .fab {
+    width: 100%;
+    height:100%;
+    display:block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size:24px;
+    color: #FF3E00;
+    transition: .5s;
+  }
+  
+  ul li:nth-child(1) a:hover .fab {
+    color: #BD0034;
+  }
+  
+  ul li:nth-child(2) a:hover .fab {
+    color: #28A02D;
+  }
