@@ -187,7 +187,14 @@ section {
     cursor: pointer;
     background: url(./assets/Elegante1.jpg);
     background-size: cover;
+    transition: 1.2s;
     z-index: 1;
+}
+
+.ele:hover {
+    background: url(./assets/elegante_costa1.jpg) ;
+    background-size: cover;
+    transition: 1.2s;
 }
 
 .ele1 {
@@ -203,9 +210,14 @@ section {
     cursor: pointer;
    background: url(./assets/Elegante3.jpg);
    background-size: cover;
+   transition: 1.2s;
    z-index: 2;
 }
-
+.ele1:hover {
+    background: url(./assets/elegante_pose2.jpg) ;
+    background-size: cover;
+    transition: 1.2s;
+}
 .ele3 {
     position: relative;
     width: 24%;
@@ -215,11 +227,18 @@ section {
     display: flex;
     float: left;
     border-radius: 3px;
-    background: url(./assets/Elegante4.jpg);
+    background: url(./assets/elegante_5.jpg);
     background-size: cover;
     z-index: 3;
+    transition: 1.2s;
     cursor: pointer;
     border: 2px solid #fc4308;
+}
+
+.ele3:hover {
+    background: url(./assets/elegante_5costa.jpg) ;
+    background-size: cover;
+    transition: 1.2s;
 }
 .ele4 {
     position: relative;
@@ -231,12 +250,17 @@ section {
     float: left;
     border: 2px solid #fc4308;
     border-radius: 3px;
+    transition: 1.2s;
     cursor: pointer;
-    background: url(./assets/Elegante2.jpg);
+    background: url(./assets/santos5.jpg);
     background-size: cover;
     z-index: 4;
 }
-
+.ele4:hover {
+    background: url(./assets/santos5_costas.jpg);
+    background-size: cover;
+    transition: 1.2s;
+}
 .valores {
     position: relative;
     width: 100%;
@@ -493,9 +517,16 @@ section {
     border: 2px solid #fc4308;
     border-radius: 3px;
     cursor: pointer;
-    background: url(./assets/charme1.jpg);
+    background: url(./assets/verão1.jpg);
     background-size: cover;
+    transition: 1.2s;
     z-index: 1;
+}
+
+.ela:hover {
+    background: url(./assets/verão01_costas.png) ;
+    background-size: cover;
+    transition: 1.2s;
 }
 .ela1 {
     position: relative;
@@ -508,9 +539,15 @@ section {
     border: 2px solid #fc4308;
     border-radius: 3px;
     cursor: pointer;
-    background: url(./assets/charme2.jpg);
+    background: url(./assets/verau2.png);
     background-size: cover;
     z-index: 2;
+    transition: 1.2s;
+}
+.ela1:hover {
+    background: url(./assets/verao2.png) ;
+    background-size: cover;
+    transition: 1.2s;
 }
 
 .ela3 {
@@ -524,9 +561,15 @@ section {
     border: 2px solid #fc4308;
     border-radius: 3px;
     cursor: pointer;
-    background: url(./assets/charme3.jpg);
+    background: url(./assets/verão2.png);
     background-size: cover;
+    transition: 1.2s;
     z-index: 3;
+}
+.ela3:hover {
+    background: url(./assets/verão2_costas.png) ;
+    background-size: cover;
+    transition: 1.2s;
 }
 
 .ela4 {
@@ -543,6 +586,12 @@ section {
     background: url(./assets/charme4.jpg);
     background-size: cover;
     z-index: 3;
+    transition: 1.2s;
+}
+.ela4:hover {
+    background: url(./assets/verao.jpg) ;
+    background-size: cover;
+    transition: 1.2s;
 }
 
 .valores1 {
@@ -804,9 +853,16 @@ section {
     border: 2px solid #fc4308;
     border-radius: 3px;
     cursor: pointer;
+    transition: 1.2s;
     background: url(./assets/cima1.jpg);
     background-size: cover;
     z-index: 1;
+}
+
+.eli:hover {
+    background: url(./assets/cima1_costas.png);
+    background-size: cover;
+    transition: 1.2s;
 }
 .eli1 {
     position: relative;
@@ -819,9 +875,15 @@ section {
     border: 2px solid #fc4308;
     border-radius: 3px;
     cursor: pointer;
-    background: url(./assets/cima2.jpg);
+    transition: 1.2s;
+    background: url(./assets/cima3.jpg);
     background-size: cover;
     z-index: 2;
+}
+.eli1:hover {
+    background: url(./assets/cima3_costas.jpg);
+    background-size: cover;
+    transition: 1.2s;
 }
 
 .eli3 {
@@ -835,9 +897,15 @@ section {
     border: 2px solid #fc4308;
     border-radius: 3px;
     cursor: pointer;
-    background: url(./assets/cima3.jpg);
+    transition: 1.2s;
+    background: url(./assets/cima2.png);
     background-size: cover;
     z-index: 3;
+}
+.eli3:hover {
+    background: url(./assets/cima2_costas.png);
+    background-size: cover;
+    transition: 1.2s;
 }
 
 .eli4 {
@@ -851,9 +919,15 @@ section {
     border: 2px solid #fc4308;
     border-radius: 3px;
     cursor: pointer;
-    background: url(./assets/cima4.jpg);
+    transition: 1.2s;
+    background: url(./assets/cima4.png);
     background-size: cover;
     z-index: 3;
+}
+.eli4:hover {
+    background: url(./assets/cima4_costas.png);
+    background-size: cover;
+    transition: 1.2s;
 }
 
 .valores2 {
@@ -1105,9 +1179,16 @@ section {
     border: 2px solid #fc4308;
     border-radius: 3px;
     cursor: pointer;
+    transition: 1.2s;
     background: url(./assets/baixo1.jpg);
     background-size: cover;
     z-index: 1;
+}
+
+.elo:hover {
+    background: url(./assets/baixo1_costas.jpg);
+    background-size: cover;
+    transition: 1.2s;
 }
 .elo1 {
     position: relative;
@@ -1120,9 +1201,15 @@ section {
     border: 2px solid #fc4308;
     border-radius: 3px;
     cursor: pointer;
-    background: url(./assets/baixo300.png);
+    transition: 1.2s;
+    background: url(./assets/baixo4.png);
     background-size: cover;
     z-index: 2;
+}
+.elo1:hover {
+    background: url(./assets/baixo4_costas.png);
+    background-size: cover;
+    transition: 1.2s;
 }
 .elo3 {
     position: relative;
@@ -1135,9 +1222,15 @@ section {
     border: 2px solid #fc4308;
     border-radius: 3px;
     cursor: pointer;
-    background: url(./assets/Baixo3.jpg);
+    transition: 1.2s;
+    background: url(./assets/baixo2.jpg);
     background-size: cover;
     z-index: 3;
+}
+.elo3:hover {
+    background: url(./assets/baixo2_costas.jpg);
+    background-size: cover;
+    transition: 1.2s;
 }
 
 .elo4 {
@@ -1151,9 +1244,15 @@ section {
     border: 2px solid #fc4308;
     border-radius: 3px;
     cursor: pointer;
-    background: url(./assets/baixo40.jpg);
+    background: url(./assets/baixo3.png);
     background-size: cover;
+    transition: 1.2s;
     z-index: 3;
+}
+.elo4:hover {
+    background: url(./assets/baixo3_costas.png);
+    background-size: cover;
+    transition: 1.2s;
 }
 
 .valores3 {
